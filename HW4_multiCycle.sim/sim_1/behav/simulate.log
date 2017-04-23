@@ -1,0 +1,1701 @@
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+RF changed : 000X
+RF changed : 000X
+RF changed : 000X
+RF changed : 000X
+RF changed : 000X
+RF changed : 000X
+RF changed : 000X
+RF changed : 000X
+RF changed : 000X
+RF changed : 000X
+RF changed : 000X
+RF changed : 000X
+RF changed : 000X
+RF changed : 000X
+RF changed : 000X
+ALU out : 0000 0000 0000
+ftn :  0, op :  0
+RF changed : 0000
+RF changed : 0000
+RF changed : 0000
+RF changed : 0000
+RF changed : 0000
+RF changed : 0000
+RF changed : 0000
+RF changed : 0000
+RF changed : 0000
+RF changed : 0000
+RF changed : 0000
+RF changed : 0000
+RF changed : 0000
+RF changed : 0000
+RF changed : 0000
+
+--------------------
+mpc :     0
+IF stage
+ftn :  z, op :  z
+
+--------------------
+mpc :     1
+ID stage
+PC : 0000
+ftn :  3, op :  9
+JMP
+Tar Addr:    35
+
+--------------------
+mpc :     0
+IF stage
+ALU out : 0023 0000 0001
+
+--------------------
+mpc :     1
+ID stage
+PC : 0023
+ALU out : 0023 0001 0023
+ftn :  0, op :  6
+I-type ALU
+
+--------------------
+mpc :     3
+EX stage - I type ALU
+ALU out : 0000 0000 0024
+
+--------------------
+mpc :    11
+WB stage - from ALUout
+ALU out : 0000 0000 0000
+
+--------------------
+mpc :     0
+IF stage
+
+--------------------
+mpc :     1
+ID stage
+PC : 0024
+ALU out : 0024 0001 0024
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  1-1 has been succeeded!
+output_port = 0x0 (Ans : 0x0)
+mpc :     0
+IF stage
+ALU out : 0025 0000 0025
+
+--------------------
+mpc :     1
+ID stage
+PC : 0025
+ftn :  0, op :  6
+I-type ALU
+
+--------------------
+mpc :     3
+EX stage - I type ALU
+ALU out : 0000 0000 0026
+
+--------------------
+mpc :    11
+WB stage - from ALUout
+ALU out : 0000 0000 0000
+
+--------------------
+mpc :     0
+IF stage
+
+--------------------
+mpc :     1
+ID stage
+PC : 0026
+ALU out : 0026 0001 0026
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  1-2 has been succeeded!
+output_port = 0x0 (Ans : 0x0)
+mpc :     0
+IF stage
+ALU out : 0027 0000 0027
+
+--------------------
+mpc :     1
+ID stage
+PC : 0027
+ftn :  0, op :  6
+I-type ALU
+
+--------------------
+mpc :     3
+EX stage - I type ALU
+ALU out : 0000 0000 0028
+
+--------------------
+mpc :    11
+WB stage - from ALUout
+ALU out : 0000 0000 0000
+
+--------------------
+mpc :     0
+IF stage
+
+--------------------
+mpc :     1
+ID stage
+PC : 0028
+ALU out : 0028 0001 0028
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  1-3 has been succeeded!
+output_port = 0x0 (Ans : 0x0)
+mpc :     0
+IF stage
+ALU out : 0029 0000 0029
+
+--------------------
+mpc :     1
+ID stage
+PC : 0029
+ftn :  0, op :  6
+I-type ALU
+
+--------------------
+mpc :     3
+EX stage - I type ALU
+ALU out : 0000 0000 002a
+
+--------------------
+mpc :    11
+WB stage - from ALUout
+ALU out : 0000 0000 0000
+
+--------------------
+mpc :     0
+IF stage
+
+--------------------
+mpc :     1
+ID stage
+PC : 002a
+ALU out : 002a 0001 002a
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  1-4 has been succeeded!
+output_port = 0x0 (Ans : 0x0)
+mpc :     0
+IF stage
+ALU out : 002b 0000 002b
+
+--------------------
+mpc :     1
+ID stage
+PC : 002b
+ftn :  1, op :  4
+I-type ALU
+
+--------------------
+mpc :     3
+EX stage - I type ALU
+ALU out : 0000 0001 002c
+
+--------------------
+mpc :    11
+WB stage - from ALUout
+ALU out : 0000 0001 0001
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0001
+
+--------------------
+mpc :     1
+ID stage
+PC : 002c
+ALU out : 002c 0001 002c
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  2-1 has been succeeded!
+output_port = 0x1 (Ans : 0x1)
+mpc :     0
+IF stage
+ALU out : 002d 0001 002d
+
+--------------------
+mpc :     1
+ID stage
+PC : 002d
+ALU out : 002d 0001 002e
+ftn :  1, op :  4
+I-type ALU
+
+--------------------
+mpc :     3
+EX stage - I type ALU
+
+--------------------
+mpc :    11
+WB stage - from ALUout
+ALU out : 0001 0001 0002
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0002
+
+--------------------
+mpc :     1
+ID stage
+PC : 002e
+ALU out : 002e 0001 002f
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  2-2 has been succeeded!
+output_port = 0x2 (Ans : 0x2)
+mpc :     0
+IF stage
+
+--------------------
+mpc :     1
+ID stage
+PC : 002f
+ALU out : 002f 0001 0031
+ftn :  1, op :  5
+I-type ALU
+
+--------------------
+mpc :     3
+EX stage - I type ALU
+ALU out : 0000 0001 0030
+
+--------------------
+mpc :    11
+WB stage - from ALUout
+ALU out : 0000 0001 0001
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0001
+
+--------------------
+mpc :     1
+ID stage
+PC : 0030
+ALU out : 0030 0001 0030
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  3-1 has been succeeded!
+output_port = 0x1 (Ans : 0x1)
+mpc :     0
+IF stage
+ALU out : 0031 0002 0031
+
+--------------------
+mpc :     1
+ID stage
+PC : 0031
+ALU out : 0031 0001 0033
+ftn :  2, op :  5
+I-type ALU
+
+--------------------
+mpc :     3
+EX stage - I type ALU
+ALU out : 0001 0002 0032
+
+--------------------
+mpc :    11
+WB stage - from ALUout
+ALU out : 0001 0002 0003
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0003
+
+--------------------
+mpc :     1
+ID stage
+PC : 0032
+ALU out : 0032 0001 0033
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  3-2 has been succeeded!
+output_port = 0x3 (Ans : 0x3)
+mpc :     0
+IF stage
+
+--------------------
+mpc :     1
+ID stage
+PC : 0033
+ALU out : 0033 0001 0035
+ftn :  3, op :  5
+I-type ALU
+
+--------------------
+mpc :     3
+EX stage - I type ALU
+ALU out : 0003 0003 0034
+
+--------------------
+mpc :    11
+WB stage - from ALUout
+ALU out : 0003 0003 0003
+
+--------------------
+mpc :     0
+IF stage
+
+--------------------
+mpc :     1
+ID stage
+PC : 0034
+ALU out : 0034 0001 0037
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  3-3 has been succeeded!
+output_port = 0x3 (Ans : 0x3)
+mpc :     0
+IF stage
+ALU out : 0035 0002 0035
+
+--------------------
+mpc :     1
+ID stage
+PC : 0035
+ALU out : 0035 0001 0037
+ftn :  0, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+ADD
+ALU out : 0002 0000 0036
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0002 0000 0002
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0002
+
+--------------------
+mpc :     1
+ID stage
+PC : 0036
+ALU out : 0036 0001 0036
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  4-1 has been succeeded!
+output_port = 0x2 (Ans : 0x2)
+mpc :     0
+IF stage
+ALU out : 0037 0002 0037
+
+--------------------
+mpc :     1
+ID stage
+PC : 0037
+ALU out : 0037 0001 0039
+ftn :  0, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+ADD
+ALU out : 0003 0000 0038
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0003 0000 0003
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0003
+
+--------------------
+mpc :     1
+ID stage
+PC : 0038
+ALU out : 0038 0001 0038
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  4-2 has been succeeded!
+output_port = 0x3 (Ans : 0x3)
+mpc :     0
+IF stage
+ALU out : 0039 0002 0039
+
+--------------------
+mpc :     1
+ID stage
+PC : 0039
+ALU out : 0039 0001 003b
+ftn :  0, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+ADD
+ALU out : 0002 0003 003a
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0002 0003 0005
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0005
+
+--------------------
+mpc :     1
+ID stage
+PC : 003a
+ALU out : 003a 0001 003d
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  4-3 has been succeeded!
+output_port = 0x5 (Ans : 0x5)
+mpc :     0
+IF stage
+ALU out : 003b 0002 003b
+
+--------------------
+mpc :     1
+ID stage
+PC : 003b
+ALU out : 003b 0001 003d
+ftn :  1, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+SUB
+ALU out : 0002 0000 003c
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0002 0000 0002
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0002
+
+--------------------
+mpc :     1
+ID stage
+PC : 003c
+ALU out : 003c 0001 003c
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  5-1 has been succeeded!
+output_port = 0x2 (Ans : 0x2)
+mpc :     0
+IF stage
+ALU out : 003d 0002 003d
+
+--------------------
+mpc :     1
+ID stage
+PC : 003d
+ALU out : 003d 0001 003f
+ftn :  1, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+SUB
+ALU out : 0000 0002 003e
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0000 0002 fffe
+
+--------------------
+mpc :     0
+IF stage
+RF changed : fffe
+
+--------------------
+mpc :     1
+ID stage
+PC : 003e
+ALU out : 003e 0001 0040
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  5-2 has been succeeded!
+output_port = 0xfffe (Ans : 0xfffe)
+mpc :     0
+IF stage
+ALU out : 003f 0002 003f
+
+--------------------
+mpc :     1
+ID stage
+PC : 003f
+ALU out : 003f 0001 0041
+ftn :  1, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+SUB
+ALU out : 0003 0000 0040
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0003 0000 0003
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0003
+
+--------------------
+mpc :     1
+ID stage
+PC : 0040
+ALU out : 0040 0001 0040
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  5-3 has been succeeded!
+output_port = 0x3 (Ans : 0x3)
+mpc :     0
+IF stage
+ALU out : 0041 0002 0041
+
+--------------------
+mpc :     1
+ID stage
+PC : 0041
+ALU out : 0041 0001 0043
+ftn :  1, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+SUB
+ALU out : 0000 0003 0042
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0000 0003 fffd
+
+--------------------
+mpc :     0
+IF stage
+RF changed : fffd
+
+--------------------
+mpc :     1
+ID stage
+PC : 0042
+ALU out : 0042 0001 0045
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  5-4 has been succeeded!
+output_port = 0xfffd (Ans : 0xfffd)
+mpc :     0
+IF stage
+ALU out : 0043 0002 0043
+
+--------------------
+mpc :     1
+ID stage
+PC : 0043
+ALU out : 0043 0001 0045
+ftn :  1, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+SUB
+ALU out : 0002 0003 0044
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0002 0003 ffff
+
+--------------------
+mpc :     0
+IF stage
+RF changed : ffff
+
+--------------------
+mpc :     1
+ID stage
+PC : 0044
+ALU out : 0044 0001 0047
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  5-5 has been succeeded!
+output_port = 0xffff (Ans : 0xffff)
+mpc :     0
+IF stage
+ALU out : 0045 0002 0045
+
+--------------------
+mpc :     1
+ID stage
+PC : 0045
+ALU out : 0045 0001 0047
+ftn :  1, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+SUB
+ALU out : 0003 0002 0046
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0003 0002 0001
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0001
+
+--------------------
+mpc :     1
+ID stage
+PC : 0046
+ALU out : 0046 0001 0048
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  5-6 has been succeeded!
+output_port = 0x1 (Ans : 0x1)
+mpc :     0
+IF stage
+ALU out : 0047 0002 0047
+
+--------------------
+mpc :     1
+ID stage
+PC : 0047
+ALU out : 0047 0001 0049
+ftn :  2, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+AND
+ALU out : 0002 0000 0048
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0002 0000 0000
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0000
+
+--------------------
+mpc :     1
+ID stage
+PC : 0048
+ALU out : 0048 0001 0048
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  6-1 has been succeeded!
+output_port = 0x0 (Ans : 0x0)
+mpc :     0
+IF stage
+ALU out : 0049 0002 0049
+
+--------------------
+mpc :     1
+ID stage
+PC : 0049
+ALU out : 0049 0001 004b
+ftn :  2, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+AND
+ALU out : 0003 0000 004a
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0003 0000 0000
+
+--------------------
+mpc :     0
+IF stage
+
+--------------------
+mpc :     1
+ID stage
+PC : 004a
+ALU out : 004a 0001 004a
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  6-2 has been succeeded!
+output_port = 0x0 (Ans : 0x0)
+mpc :     0
+IF stage
+ALU out : 004b 0002 004b
+
+--------------------
+mpc :     1
+ID stage
+PC : 004b
+ALU out : 004b 0001 004d
+ftn :  2, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+AND
+ALU out : 0002 0003 004c
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0002 0003 0002
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0002
+
+--------------------
+mpc :     1
+ID stage
+PC : 004c
+ALU out : 004c 0001 004f
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  6-3 has been succeeded!
+output_port = 0x2 (Ans : 0x2)
+mpc :     0
+IF stage
+ALU out : 004d 0002 004d
+
+--------------------
+mpc :     1
+ID stage
+PC : 004d
+ALU out : 004d 0001 004f
+ftn :  3, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+ARR
+ALU out : 0002 0000 004e
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0002 0000 0002
+
+--------------------
+mpc :     0
+IF stage
+
+--------------------
+mpc :     1
+ID stage
+PC : 004e
+ALU out : 004e 0001 004e
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  7-1 has been succeeded!
+output_port = 0x2 (Ans : 0x2)
+mpc :     0
+IF stage
+ALU out : 004f 0002 004f
+
+--------------------
+mpc :     1
+ID stage
+PC : 004f
+ALU out : 004f 0001 0051
+ftn :  3, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+ARR
+ALU out : 0003 0000 0050
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0003 0000 0003
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0003
+
+--------------------
+mpc :     1
+ID stage
+PC : 0050
+ALU out : 0050 0001 0050
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  7-2 has been succeeded!
+output_port = 0x3 (Ans : 0x3)
+mpc :     0
+IF stage
+ALU out : 0051 0002 0051
+
+--------------------
+mpc :     1
+ID stage
+PC : 0051
+ALU out : 0051 0001 0053
+ftn :  3, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+ARR
+ALU out : 0002 0003 0052
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0002 0003 0003
+
+--------------------
+mpc :     0
+IF stage
+
+--------------------
+mpc :     1
+ID stage
+PC : 0052
+ALU out : 0052 0001 0055
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  7-3 has been succeeded!
+output_port = 0x3 (Ans : 0x3)
+mpc :     0
+IF stage
+ALU out : 0053 0002 0053
+
+--------------------
+mpc :     1
+ID stage
+PC : 0053
+ALU out : 0053 0001 0055
+ftn :  4, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+NOT
+ALU out : 0002 0000 0054
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0002 0000 fffd
+
+--------------------
+mpc :     0
+IF stage
+RF changed : fffd
+
+--------------------
+mpc :     1
+ID stage
+PC : 0054
+ALU out : 0054 0001 0056
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  8-1 has been succeeded!
+output_port = 0xfffd (Ans : 0xfffd)
+mpc :     0
+IF stage
+ALU out : 0055 0002 0055
+
+--------------------
+mpc :     1
+ID stage
+PC : 0055
+ALU out : 0055 0001 0057
+ftn :  4, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+NOT
+ALU out : 0003 0000 0056
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0003 0000 fffc
+
+--------------------
+mpc :     0
+IF stage
+RF changed : fffc
+
+--------------------
+mpc :     1
+ID stage
+PC : 0056
+ALU out : 0056 0001 0058
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  8-2 has been succeeded!
+output_port = 0xfffc (Ans : 0xfffc)
+mpc :     0
+IF stage
+ALU out : 0057 0002 0057
+
+--------------------
+mpc :     1
+ID stage
+PC : 0057
+ALU out : 0057 0001 0059
+ftn :  4, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+NOT
+ALU out : 0000 0000 0058
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0000 0000 ffff
+
+--------------------
+mpc :     0
+IF stage
+RF changed : ffff
+
+--------------------
+mpc :     1
+ID stage
+PC : 0058
+ALU out : 0058 0001 005a
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  8-3 has been succeeded!
+output_port = 0xffff (Ans : 0xffff)
+mpc :     0
+IF stage
+ALU out : 0059 0002 0059
+
+--------------------
+mpc :     1
+ID stage
+PC : 0059
+ALU out : 0059 0001 005b
+ftn :  5, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+TCP
+ALU out : 0002 0000 005a
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0002 0000 0002
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0002
+
+--------------------
+mpc :     1
+ID stage
+PC : 005a
+ALU out : 005a 0001 005c
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  9-1 has been failed!
+output_port = 0x2 (Ans : 0xfffe)
+mpc :     0
+IF stage
+ALU out : 005b 0002 005b
+
+--------------------
+mpc :     1
+ID stage
+PC : 005b
+ALU out : 005b 0001 005d
+ftn :  5, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+TCP
+ALU out : 0003 0000 005c
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0003 0000 0003
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0003
+
+--------------------
+mpc :     1
+ID stage
+PC : 005c
+ALU out : 005c 0001 005e
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  9-2 has been failed!
+output_port = 0x3 (Ans : 0xfffd)
+mpc :     0
+IF stage
+ALU out : 005d 0002 005d
+
+--------------------
+mpc :     1
+ID stage
+PC : 005d
+ALU out : 005d 0001 005f
+ftn :  5, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+TCP
+ALU out : 0000 0000 005e
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0000 0000 0000
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0000
+
+--------------------
+mpc :     1
+ID stage
+PC : 005e
+ALU out : 005e 0001 0060
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test #  9-3 has been succeeded!
+output_port = 0x0 (Ans : 0x0)
+mpc :     0
+IF stage
+ALU out : 005f 0002 005f
+
+--------------------
+mpc :     1
+ID stage
+PC : 005f
+ALU out : 005f 0001 0061
+ftn :  6, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+SHL
+ALU out : 0002 0000 0060
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0002 0000 0004
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0004
+
+--------------------
+mpc :     1
+ID stage
+PC : 0060
+ALU out : 0060 0001 0062
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test # 10-1 has been succeeded!
+output_port = 0x4 (Ans : 0x4)
+mpc :     0
+IF stage
+ALU out : 0061 0002 0061
+
+--------------------
+mpc :     1
+ID stage
+PC : 0061
+ALU out : 0061 0001 0063
+ftn :  6, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+SHL
+ALU out : 0003 0000 0062
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0003 0000 0006
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0006
+
+--------------------
+mpc :     1
+ID stage
+PC : 0062
+ALU out : 0062 0001 0064
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test # 10-2 has been succeeded!
+output_port = 0x6 (Ans : 0x6)
+mpc :     0
+IF stage
+ALU out : 0063 0002 0063
+
+--------------------
+mpc :     1
+ID stage
+PC : 0063
+ALU out : 0063 0001 0065
+ftn :  6, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+SHL
+ALU out : 0000 0000 0064
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0000 0000 0000
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0000
+
+--------------------
+mpc :     1
+ID stage
+PC : 0064
+ALU out : 0064 0001 0066
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test # 10-3 has been succeeded!
+output_port = 0x0 (Ans : 0x0)
+mpc :     0
+IF stage
+ALU out : 0065 0002 0065
+
+--------------------
+mpc :     1
+ID stage
+PC : 0065
+ALU out : 0065 0001 0067
+ftn :  7, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+SHR
+ALU out : 0002 0000 0066
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0002 0000 0001
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0001
+
+--------------------
+mpc :     1
+ID stage
+PC : 0066
+ALU out : 0066 0001 0068
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test # 11-1 has been succeeded!
+output_port = 0x1 (Ans : 0x1)
+mpc :     0
+IF stage
+ALU out : 0067 0002 0067
+
+--------------------
+mpc :     1
+ID stage
+PC : 0067
+ALU out : 0067 0001 0069
+ftn :  7, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+SHR
+ALU out : 0003 0000 0068
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0003 0000 0001
+
+--------------------
+mpc :     0
+IF stage
+
+--------------------
+mpc :     1
+ID stage
+PC : 0068
+ALU out : 0068 0001 006a
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test # 11-2 has been succeeded!
+output_port = 0x1 (Ans : 0x1)
+mpc :     0
+IF stage
+ALU out : 0069 0002 0069
+
+--------------------
+mpc :     1
+ID stage
+PC : 0069
+ALU out : 0069 0001 006b
+ftn :  7, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+SHR
+ALU out : 0000 0000 006a
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0000 0000 0000
+
+--------------------
+mpc :     0
+IF stage
+RF changed : 0000
+
+--------------------
+mpc :     1
+ID stage
+PC : 006a
+ALU out : 006a 0001 006c
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test # 11-3 has been succeeded!
+output_port = 0x0 (Ans : 0x0)
+mpc :     0
+IF stage
+ALU out : 006b 0002 006b
+
+--------------------
+mpc :     1
+ID stage
+PC : 006b
+ALU out : 006b 0001 006d
+ftn :  1, op :  7
+
+--------------------
+mpc :     0
+IF stage
+ALU out : 006c 0002 006c
+
+--------------------
+mpc :     1
+ID stage
+PC : 006c
+ALU out : 006c 0001 006e
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test # 12-1 has been failed!
+output_port = 0x2 (Ans : 0x1)
+mpc :     0
+IF stage
+ALU out : 006d 0002 006d
+
+--------------------
+mpc :     1
+ID stage
+PC : 006d
+ALU out : 006d 0001 006f
+ftn :  2, op :  7
+
+--------------------
+mpc :     0
+IF stage
+ALU out : 006e 0003 006e
+
+--------------------
+mpc :     1
+ID stage
+PC : 006e
+ALU out : 006e 0001 0071
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test # 12-2 has been failed!
+output_port = 0x3 (Ans : 0xffff)
+mpc :     0
+IF stage
+ALU out : 006f 0002 006f
+
+--------------------
+mpc :     1
+ID stage
+PC : 006f
+ALU out : 006f 0001 0071
+ftn :  1, op :  8
+
+--------------------
+mpc :     0
+IF stage
+ALU out : 0070 0003 0070
+
+--------------------
+mpc :     1
+ID stage
+PC : 0070
+ALU out : 0070 0001 0073
+ftn :  2, op :  8
+
+--------------------
+mpc :     0
+IF stage
+ALU out : 0071 0002 0071
+
+--------------------
+mpc :     1
+ID stage
+PC : 0071
+ALU out : 0071 0001 0073
+ftn :  1, op :  7
+
+--------------------
+mpc :     0
+IF stage
+ALU out : 0072 0002 0072
+
+--------------------
+mpc :     1
+ID stage
+PC : 0072
+ALU out : 0072 0001 0074
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test # 13-1 has been failed!
+output_port = 0x2 (Ans : 0xffff)
+mpc :     0
+IF stage
+ALU out : 0073 0002 0073
+
+--------------------
+mpc :     1
+ID stage
+PC : 0073
+ALU out : 0073 0001 0075
+ftn :  2, op :  7
+
+--------------------
+mpc :     0
+IF stage
+ALU out : 0074 0003 0074
+
+--------------------
+mpc :     1
+ID stage
+PC : 0074
+ALU out : 0074 0001 0077
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test # 13-2 has been failed!
+output_port = 0x3 (Ans : 0x1)
+mpc :     0
+IF stage
+ALU out : 0075 0002 0075
+
+--------------------
+mpc :     1
+ID stage
+PC : 0075
+ALU out : 0075 0001 0077
+ftn : 22, op :  9
+JMP
+Tar Addr:   118
+
+--------------------
+mpc :     0
+IF stage
+ALU out : 0076 0002 0076
+
+--------------------
+mpc :     1
+ID stage
+PC : 0076
+ALU out : 0076 0001 0078
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test # 14-1 has been failed!
+output_port = 0x2 (Ans : 0xffff)
+mpc :     0
+IF stage
+ALU out : 0077 0002 0077
+
+--------------------
+mpc :     1
+ID stage
+PC : 0077
+ALU out : 0077 0001 0079
+ftn : 25, op :  9
+JMP
+Tar Addr:   121
+
+--------------------
+mpc :     0
+IF stage
+ALU out : 0079 0002 0078
+
+--------------------
+mpc :     1
+ID stage
+PC : 0079
+ALU out : 0079 0001 007b
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test # 14-2 has been failed!
+output_port = 0x3 (Ans : 0x1)
+mpc :     0
+IF stage
+ALU out : 007a 0002 007a
+
+--------------------
+mpc :     1
+ID stage
+PC : 007a
+ALU out : 007a 0001 007c
+ftn :  1, op :  0
+
+--------------------
+mpc :     0
+IF stage
+ALU out : 007b 0000 007b
+
+--------------------
+mpc :     1
+ID stage
+PC : 007b
+ftn : 29, op :  9
+JMP
+Tar Addr:   125
+
+--------------------
+mpc :     0
+IF stage
+ALU out : 007d 0002 007c
+
+--------------------
+mpc :     1
+ID stage
+PC : 007d
+ALU out : 007d 0001 007f
+ftn : 28, op : 15
+WWD
+
+--------------------
+Test # 15-1 has been failed!
+output_port = 0x2 (Ans : 0xffff)
+mpc :     0
+IF stage
+ALU out : 007e 0002 007e
+
+--------------------
+mpc :     1
+ID stage
+PC : 007e
+ALU out : 007e 0001 0080
+ftn :  1, op :  0
+
+--------------------
+mpc :     0
+IF stage
+ALU out : 007f 0000 007f
+
+--------------------
+mpc :     1
+ID stage
+PC : 007f
+ftn : 29, op : 15
+R-TYPE
+
+--------------------
+mpc :     2
+EX stage - R type ALU
+ALU out : 0002 0002 0080
+
+--------------------
+mpc :    10
+WB stage - from ALUout
+ALU out : 0002 0002 0004
+
+--------------------
+Test # 15-2 has been failed!
+output_port = 0xzzzz (Ans : 0x1)
+mpc :     0
+IF stage
+RF changed : 0004
+
+--------------------
+mpc :     1
+ID stage
