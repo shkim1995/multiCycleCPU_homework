@@ -3,7 +3,7 @@
 Jan 23 2017
 19:19:20
 /home/steven/Desktop/Architecture/constants.v,1491922652,verilog,,,,,,,,,,,,
-/home/steven/Desktop/Architecture/cpu.v,1493014780,verilog,,,/home/steven/Desktop/Architecture/opcodes.v;/home/steven/Desktop/Architecture/constants.v,control;cpu;datapath;latch;signExtension;targetAddress,,,,,,,,
+/home/steven/Desktop/Architecture/cpu.v,1493015049,verilog,,,/home/steven/Desktop/Architecture/opcodes.v;/home/steven/Desktop/Architecture/constants.v,control;cpu;datapath;latch;signExtension;targetAddress,,,,,,,,
 /home/steven/Desktop/Architecture/cpu_tb.v,1492961375,verilog,,,/home/steven/Desktop/Architecture/constants.v,cpu_tb,,,,,,,,
 /home/steven/Desktop/Architecture/memory.v,1493011374,verilog,,,/home/steven/Desktop/Architecture/constants.v,memory,,,,,,,,
 /home/steven/Desktop/Architecture/opcodes.v,1491916486,verilog,,,,,,,,,,,,
