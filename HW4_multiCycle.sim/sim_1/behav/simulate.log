@@ -15,7 +15,6 @@ RF changed : 000X
 RF changed : 000X
 RF changed : 000X
 RF changed : 000X
-ALU out : 0000 0000 0000
 ftn :  0, op :  0
 RF changed : 0000
 RF changed : 0000
@@ -42,33 +41,27 @@ ftn :  z, op :  z
 mpc :     1
 ID stage
 PC : 0000
-ALU out : 0001 0001 0001
 ftn :  3, op :  9
 JMP
-Tar Addr: 0023
 
 --------------------
 mpc :     0
 IF stage
-ALU out : 0023 0001 0002
 
 --------------------
 mpc :     1
 ID stage
 PC : 0023
-ALU out : 0024 0001 0024
 ftn :  0, op :  6
 I-type ALU
 
 --------------------
 mpc :     3
 EX stage - I type ALU
-ALU out : 0000 0000 0025
 
 --------------------
 mpc :    11
 WB stage - from ALUout
-ALU out : 0000 0000 0000
 
 --------------------
 mpc :     0
@@ -78,7 +71,6 @@ IF stage
 mpc :     1
 ID stage
 PC : 0024
-ALU out : 0025 0001 0025
 ftn : 28, op : 15
 WWD
 
@@ -87,7 +79,6 @@ Test #  1-1 has been succeeded!
 output_port = 0x0 (Ans : 0x0)
 mpc :     0
 IF stage
-ALU out : 0025 0001 0026
 
 --------------------
 mpc :     1
@@ -99,12 +90,10 @@ I-type ALU
 --------------------
 mpc :     3
 EX stage - I type ALU
-ALU out : 0000 0000 0027
 
 --------------------
 mpc :    11
 WB stage - from ALUout
-ALU out : 0000 0000 0000
 
 --------------------
 mpc :     0
@@ -114,7 +103,6 @@ IF stage
 mpc :     1
 ID stage
 PC : 0026
-ALU out : 0027 0001 0027
 ftn : 28, op : 15
 WWD
 
@@ -123,7 +111,6 @@ Test #  1-2 has been succeeded!
 output_port = 0x0 (Ans : 0x0)
 mpc :     0
 IF stage
-ALU out : 0027 0001 0028
 
 --------------------
 mpc :     1
@@ -135,12 +122,10 @@ I-type ALU
 --------------------
 mpc :     3
 EX stage - I type ALU
-ALU out : 0000 0000 0029
 
 --------------------
 mpc :    11
 WB stage - from ALUout
-ALU out : 0000 0000 0000
 
 --------------------
 mpc :     0
@@ -150,7 +135,6 @@ IF stage
 mpc :     1
 ID stage
 PC : 0028
-ALU out : 0029 0001 0029
 ftn : 28, op : 15
 WWD
 
@@ -159,7 +143,6 @@ Test #  1-3 has been succeeded!
 output_port = 0x0 (Ans : 0x0)
 mpc :     0
 IF stage
-ALU out : 0029 0001 002a
 
 --------------------
 mpc :     1
@@ -171,12 +154,10 @@ I-type ALU
 --------------------
 mpc :     3
 EX stage - I type ALU
-ALU out : 0000 0000 002b
 
 --------------------
 mpc :    11
 WB stage - from ALUout
-ALU out : 0000 0000 0000
 
 --------------------
 mpc :     0
@@ -186,7 +167,6 @@ IF stage
 mpc :     1
 ID stage
 PC : 002a
-ALU out : 002b 0001 002b
 ftn : 28, op : 15
 WWD
 
@@ -195,7 +175,6 @@ Test #  1-4 has been succeeded!
 output_port = 0x0 (Ans : 0x0)
 mpc :     0
 IF stage
-ALU out : 002b 0001 002c
 
 --------------------
 mpc :     1
@@ -207,12 +186,10 @@ I-type ALU
 --------------------
 mpc :     3
 EX stage - I type ALU
-ALU out : 0000 0001 002d
 
 --------------------
 mpc :    11
 WB stage - from ALUout
-ALU out : 0000 0001 0001
 
 --------------------
 mpc :     0
@@ -223,7 +200,6 @@ RF changed : 0001
 mpc :     1
 ID stage
 PC : 002c
-ALU out : 002d 0001 002d
 ftn : 28, op : 15
 WWD
 
@@ -232,7 +208,6 @@ Test #  2-1 has been succeeded!
 output_port = 0x1 (Ans : 0x1)
 mpc :     0
 IF stage
-ALU out : 002d 0001 002e
 
 --------------------
 mpc :     1
@@ -244,12 +219,10 @@ I-type ALU
 --------------------
 mpc :     3
 EX stage - I type ALU
-ALU out : 0001 0001 002f
 
 --------------------
 mpc :    11
 WB stage - from ALUout
-ALU out : 0001 0001 0002
 
 --------------------
 mpc :     0
@@ -260,7 +233,6 @@ RF changed : 0002
 mpc :     1
 ID stage
 PC : 002e
-ALU out : 002f 0001 002f
 ftn : 28, op : 15
 WWD
 
@@ -269,7 +241,6 @@ Test #  2-2 has been succeeded!
 output_port = 0x2 (Ans : 0x2)
 mpc :     0
 IF stage
-ALU out : 002f 0001 0030
 
 --------------------
 mpc :     1
@@ -281,12 +252,10 @@ I-type ALU
 --------------------
 mpc :     3
 EX stage - I type ALU
-ALU out : 0000 0001 0031
 
 --------------------
 mpc :    11
 WB stage - from ALUout
-ALU out : 0000 0001 0001
 
 --------------------
 mpc :     0
@@ -297,7 +266,6 @@ RF changed : 0001
 mpc :     1
 ID stage
 PC : 0030
-ALU out : 0031 0001 0031
 ftn : 28, op : 15
 WWD
 
@@ -306,7 +274,6 @@ Test #  3-1 has been succeeded!
 output_port = 0x1 (Ans : 0x1)
 mpc :     0
 IF stage
-ALU out : 0031 0001 0032
 
 --------------------
 mpc :     1
@@ -318,12 +285,10 @@ I-type ALU
 --------------------
 mpc :     3
 EX stage - I type ALU
-ALU out : 0001 0002 0033
 
 --------------------
 mpc :    11
 WB stage - from ALUout
-ALU out : 0001 0002 0003
 
 --------------------
 mpc :     0
@@ -334,7 +299,6 @@ RF changed : 0003
 mpc :     1
 ID stage
 PC : 0032
-ALU out : 0033 0001 0033
 ftn : 28, op : 15
 WWD
 
@@ -343,7 +307,6 @@ Test #  3-2 has been succeeded!
 output_port = 0x3 (Ans : 0x3)
 mpc :     0
 IF stage
-ALU out : 0033 0001 0034
 
 --------------------
 mpc :     1
@@ -355,12 +318,10 @@ I-type ALU
 --------------------
 mpc :     3
 EX stage - I type ALU
-ALU out : 0003 0003 0035
 
 --------------------
 mpc :    11
 WB stage - from ALUout
-ALU out : 0003 0003 0003
 
 --------------------
 mpc :     0
@@ -370,7 +331,6 @@ IF stage
 mpc :     1
 ID stage
 PC : 0034
-ALU out : 0035 0001 0035
 ftn : 28, op : 15
 WWD
 
@@ -379,7 +339,6 @@ Test #  3-3 has been succeeded!
 output_port = 0x3 (Ans : 0x3)
 mpc :     0
 IF stage
-ALU out : 0035 0001 0036
 
 --------------------
 mpc :     1
@@ -392,12 +351,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 ADD
-ALU out : 0002 0000 0037
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0002 0000 0002
 
 --------------------
 mpc :     0
@@ -408,7 +365,6 @@ RF changed : 0002
 mpc :     1
 ID stage
 PC : 0036
-ALU out : 0037 0001 0037
 ftn : 28, op : 15
 WWD
 
@@ -417,7 +373,6 @@ Test #  4-1 has been succeeded!
 output_port = 0x2 (Ans : 0x2)
 mpc :     0
 IF stage
-ALU out : 0037 0001 0038
 
 --------------------
 mpc :     1
@@ -430,12 +385,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 ADD
-ALU out : 0003 0000 0039
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0003 0000 0003
 
 --------------------
 mpc :     0
@@ -446,7 +399,6 @@ RF changed : 0003
 mpc :     1
 ID stage
 PC : 0038
-ALU out : 0039 0001 0039
 ftn : 28, op : 15
 WWD
 
@@ -455,7 +407,6 @@ Test #  4-2 has been succeeded!
 output_port = 0x3 (Ans : 0x3)
 mpc :     0
 IF stage
-ALU out : 0039 0001 003a
 
 --------------------
 mpc :     1
@@ -468,12 +419,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 ADD
-ALU out : 0002 0003 003b
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0002 0003 0005
 
 --------------------
 mpc :     0
@@ -484,7 +433,6 @@ RF changed : 0005
 mpc :     1
 ID stage
 PC : 003a
-ALU out : 003b 0001 003b
 ftn : 28, op : 15
 WWD
 
@@ -493,7 +441,6 @@ Test #  4-3 has been succeeded!
 output_port = 0x5 (Ans : 0x5)
 mpc :     0
 IF stage
-ALU out : 003b 0001 003c
 
 --------------------
 mpc :     1
@@ -506,12 +453,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 SUB
-ALU out : 0002 0000 003d
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0002 0000 0002
 
 --------------------
 mpc :     0
@@ -522,7 +467,6 @@ RF changed : 0002
 mpc :     1
 ID stage
 PC : 003c
-ALU out : 003d 0001 003d
 ftn : 28, op : 15
 WWD
 
@@ -531,7 +475,6 @@ Test #  5-1 has been succeeded!
 output_port = 0x2 (Ans : 0x2)
 mpc :     0
 IF stage
-ALU out : 003d 0001 003e
 
 --------------------
 mpc :     1
@@ -544,12 +487,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 SUB
-ALU out : 0000 0002 003f
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0000 0002 fffe
 
 --------------------
 mpc :     0
@@ -560,7 +501,6 @@ RF changed : fffe
 mpc :     1
 ID stage
 PC : 003e
-ALU out : 003f 0001 003f
 ftn : 28, op : 15
 WWD
 
@@ -569,7 +509,6 @@ Test #  5-2 has been succeeded!
 output_port = 0xfffe (Ans : 0xfffe)
 mpc :     0
 IF stage
-ALU out : 003f 0001 0040
 
 --------------------
 mpc :     1
@@ -582,12 +521,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 SUB
-ALU out : 0003 0000 0041
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0003 0000 0003
 
 --------------------
 mpc :     0
@@ -598,7 +535,6 @@ RF changed : 0003
 mpc :     1
 ID stage
 PC : 0040
-ALU out : 0041 0001 0041
 ftn : 28, op : 15
 WWD
 
@@ -607,7 +543,6 @@ Test #  5-3 has been succeeded!
 output_port = 0x3 (Ans : 0x3)
 mpc :     0
 IF stage
-ALU out : 0041 0001 0042
 
 --------------------
 mpc :     1
@@ -620,12 +555,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 SUB
-ALU out : 0000 0003 0043
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0000 0003 fffd
 
 --------------------
 mpc :     0
@@ -636,7 +569,6 @@ RF changed : fffd
 mpc :     1
 ID stage
 PC : 0042
-ALU out : 0043 0001 0043
 ftn : 28, op : 15
 WWD
 
@@ -645,7 +577,6 @@ Test #  5-4 has been succeeded!
 output_port = 0xfffd (Ans : 0xfffd)
 mpc :     0
 IF stage
-ALU out : 0043 0001 0044
 
 --------------------
 mpc :     1
@@ -658,12 +589,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 SUB
-ALU out : 0002 0003 0045
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0002 0003 ffff
 
 --------------------
 mpc :     0
@@ -674,7 +603,6 @@ RF changed : ffff
 mpc :     1
 ID stage
 PC : 0044
-ALU out : 0045 0001 0045
 ftn : 28, op : 15
 WWD
 
@@ -683,7 +611,6 @@ Test #  5-5 has been succeeded!
 output_port = 0xffff (Ans : 0xffff)
 mpc :     0
 IF stage
-ALU out : 0045 0001 0046
 
 --------------------
 mpc :     1
@@ -696,12 +623,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 SUB
-ALU out : 0003 0002 0047
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0003 0002 0001
 
 --------------------
 mpc :     0
@@ -712,7 +637,6 @@ RF changed : 0001
 mpc :     1
 ID stage
 PC : 0046
-ALU out : 0047 0001 0047
 ftn : 28, op : 15
 WWD
 
@@ -721,7 +645,6 @@ Test #  5-6 has been succeeded!
 output_port = 0x1 (Ans : 0x1)
 mpc :     0
 IF stage
-ALU out : 0047 0001 0048
 
 --------------------
 mpc :     1
@@ -734,12 +657,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 AND
-ALU out : 0002 0000 0049
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0002 0000 0000
 
 --------------------
 mpc :     0
@@ -750,7 +671,6 @@ RF changed : 0000
 mpc :     1
 ID stage
 PC : 0048
-ALU out : 0049 0001 0049
 ftn : 28, op : 15
 WWD
 
@@ -759,7 +679,6 @@ Test #  6-1 has been succeeded!
 output_port = 0x0 (Ans : 0x0)
 mpc :     0
 IF stage
-ALU out : 0049 0001 004a
 
 --------------------
 mpc :     1
@@ -772,12 +691,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 AND
-ALU out : 0003 0000 004b
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0003 0000 0000
 
 --------------------
 mpc :     0
@@ -787,7 +704,6 @@ IF stage
 mpc :     1
 ID stage
 PC : 004a
-ALU out : 004b 0001 004b
 ftn : 28, op : 15
 WWD
 
@@ -796,7 +712,6 @@ Test #  6-2 has been succeeded!
 output_port = 0x0 (Ans : 0x0)
 mpc :     0
 IF stage
-ALU out : 004b 0001 004c
 
 --------------------
 mpc :     1
@@ -809,12 +724,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 AND
-ALU out : 0002 0003 004d
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0002 0003 0002
 
 --------------------
 mpc :     0
@@ -825,7 +738,6 @@ RF changed : 0002
 mpc :     1
 ID stage
 PC : 004c
-ALU out : 004d 0001 004d
 ftn : 28, op : 15
 WWD
 
@@ -834,7 +746,6 @@ Test #  6-3 has been succeeded!
 output_port = 0x2 (Ans : 0x2)
 mpc :     0
 IF stage
-ALU out : 004d 0001 004e
 
 --------------------
 mpc :     1
@@ -847,12 +758,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 ARR
-ALU out : 0002 0000 004f
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0002 0000 0002
 
 --------------------
 mpc :     0
@@ -862,7 +771,6 @@ IF stage
 mpc :     1
 ID stage
 PC : 004e
-ALU out : 004f 0001 004f
 ftn : 28, op : 15
 WWD
 
@@ -871,7 +779,6 @@ Test #  7-1 has been succeeded!
 output_port = 0x2 (Ans : 0x2)
 mpc :     0
 IF stage
-ALU out : 004f 0001 0050
 
 --------------------
 mpc :     1
@@ -884,12 +791,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 ARR
-ALU out : 0003 0000 0051
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0003 0000 0003
 
 --------------------
 mpc :     0
@@ -900,7 +805,6 @@ RF changed : 0003
 mpc :     1
 ID stage
 PC : 0050
-ALU out : 0051 0001 0051
 ftn : 28, op : 15
 WWD
 
@@ -909,7 +813,6 @@ Test #  7-2 has been succeeded!
 output_port = 0x3 (Ans : 0x3)
 mpc :     0
 IF stage
-ALU out : 0051 0001 0052
 
 --------------------
 mpc :     1
@@ -922,12 +825,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 ARR
-ALU out : 0002 0003 0053
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0002 0003 0003
 
 --------------------
 mpc :     0
@@ -937,7 +838,6 @@ IF stage
 mpc :     1
 ID stage
 PC : 0052
-ALU out : 0053 0001 0053
 ftn : 28, op : 15
 WWD
 
@@ -946,7 +846,6 @@ Test #  7-3 has been succeeded!
 output_port = 0x3 (Ans : 0x3)
 mpc :     0
 IF stage
-ALU out : 0053 0001 0054
 
 --------------------
 mpc :     1
@@ -959,12 +858,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 NOT
-ALU out : 0002 0000 0055
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0002 0000 fffd
 
 --------------------
 mpc :     0
@@ -975,7 +872,6 @@ RF changed : fffd
 mpc :     1
 ID stage
 PC : 0054
-ALU out : 0055 0001 0055
 ftn : 28, op : 15
 WWD
 
@@ -984,7 +880,6 @@ Test #  8-1 has been succeeded!
 output_port = 0xfffd (Ans : 0xfffd)
 mpc :     0
 IF stage
-ALU out : 0055 0001 0056
 
 --------------------
 mpc :     1
@@ -997,12 +892,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 NOT
-ALU out : 0003 0000 0057
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0003 0000 fffc
 
 --------------------
 mpc :     0
@@ -1013,7 +906,6 @@ RF changed : fffc
 mpc :     1
 ID stage
 PC : 0056
-ALU out : 0057 0001 0057
 ftn : 28, op : 15
 WWD
 
@@ -1022,7 +914,6 @@ Test #  8-2 has been succeeded!
 output_port = 0xfffc (Ans : 0xfffc)
 mpc :     0
 IF stage
-ALU out : 0057 0001 0058
 
 --------------------
 mpc :     1
@@ -1035,12 +926,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 NOT
-ALU out : 0000 0000 0059
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0000 0000 ffff
 
 --------------------
 mpc :     0
@@ -1051,7 +940,6 @@ RF changed : ffff
 mpc :     1
 ID stage
 PC : 0058
-ALU out : 0059 0001 0059
 ftn : 28, op : 15
 WWD
 
@@ -1060,7 +948,6 @@ Test #  8-3 has been succeeded!
 output_port = 0xffff (Ans : 0xffff)
 mpc :     0
 IF stage
-ALU out : 0059 0001 005a
 
 --------------------
 mpc :     1
@@ -1073,12 +960,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 TCP
-ALU out : 0002 0000 005b
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0002 0000 fffe
 
 --------------------
 mpc :     0
@@ -1089,7 +974,6 @@ RF changed : fffe
 mpc :     1
 ID stage
 PC : 005a
-ALU out : 005b 0001 005b
 ftn : 28, op : 15
 WWD
 
@@ -1098,7 +982,6 @@ Test #  9-1 has been succeeded!
 output_port = 0xfffe (Ans : 0xfffe)
 mpc :     0
 IF stage
-ALU out : 005b 0001 005c
 
 --------------------
 mpc :     1
@@ -1111,12 +994,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 TCP
-ALU out : 0003 0000 005d
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0003 0000 fffd
 
 --------------------
 mpc :     0
@@ -1127,7 +1008,6 @@ RF changed : fffd
 mpc :     1
 ID stage
 PC : 005c
-ALU out : 005d 0001 005d
 ftn : 28, op : 15
 WWD
 
@@ -1136,7 +1016,6 @@ Test #  9-2 has been succeeded!
 output_port = 0xfffd (Ans : 0xfffd)
 mpc :     0
 IF stage
-ALU out : 005d 0001 005e
 
 --------------------
 mpc :     1
@@ -1149,12 +1028,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 TCP
-ALU out : 0000 0000 005f
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0000 0000 0000
 
 --------------------
 mpc :     0
@@ -1165,7 +1042,6 @@ RF changed : 0000
 mpc :     1
 ID stage
 PC : 005e
-ALU out : 005f 0001 005f
 ftn : 28, op : 15
 WWD
 
@@ -1174,7 +1050,6 @@ Test #  9-3 has been succeeded!
 output_port = 0x0 (Ans : 0x0)
 mpc :     0
 IF stage
-ALU out : 005f 0001 0060
 
 --------------------
 mpc :     1
@@ -1187,12 +1062,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 SHL
-ALU out : 0002 0000 0061
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0002 0000 0004
 
 --------------------
 mpc :     0
@@ -1203,7 +1076,6 @@ RF changed : 0004
 mpc :     1
 ID stage
 PC : 0060
-ALU out : 0061 0001 0061
 ftn : 28, op : 15
 WWD
 
@@ -1212,7 +1084,6 @@ Test # 10-1 has been succeeded!
 output_port = 0x4 (Ans : 0x4)
 mpc :     0
 IF stage
-ALU out : 0061 0001 0062
 
 --------------------
 mpc :     1
@@ -1225,12 +1096,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 SHL
-ALU out : 0003 0000 0063
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0003 0000 0006
 
 --------------------
 mpc :     0
@@ -1241,7 +1110,6 @@ RF changed : 0006
 mpc :     1
 ID stage
 PC : 0062
-ALU out : 0063 0001 0063
 ftn : 28, op : 15
 WWD
 
@@ -1250,7 +1118,6 @@ Test # 10-2 has been succeeded!
 output_port = 0x6 (Ans : 0x6)
 mpc :     0
 IF stage
-ALU out : 0063 0001 0064
 
 --------------------
 mpc :     1
@@ -1263,12 +1130,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 SHL
-ALU out : 0000 0000 0065
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0000 0000 0000
 
 --------------------
 mpc :     0
@@ -1279,7 +1144,6 @@ RF changed : 0000
 mpc :     1
 ID stage
 PC : 0064
-ALU out : 0065 0001 0065
 ftn : 28, op : 15
 WWD
 
@@ -1288,7 +1152,6 @@ Test # 10-3 has been succeeded!
 output_port = 0x0 (Ans : 0x0)
 mpc :     0
 IF stage
-ALU out : 0065 0001 0066
 
 --------------------
 mpc :     1
@@ -1301,12 +1164,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 SHR
-ALU out : 0002 0000 0067
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0002 0000 0001
 
 --------------------
 mpc :     0
@@ -1317,7 +1178,6 @@ RF changed : 0001
 mpc :     1
 ID stage
 PC : 0066
-ALU out : 0067 0001 0067
 ftn : 28, op : 15
 WWD
 
@@ -1326,7 +1186,6 @@ Test # 11-1 has been succeeded!
 output_port = 0x1 (Ans : 0x1)
 mpc :     0
 IF stage
-ALU out : 0067 0001 0068
 
 --------------------
 mpc :     1
@@ -1339,12 +1198,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 SHR
-ALU out : 0003 0000 0069
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0003 0000 0001
 
 --------------------
 mpc :     0
@@ -1354,7 +1211,6 @@ IF stage
 mpc :     1
 ID stage
 PC : 0068
-ALU out : 0069 0001 0069
 ftn : 28, op : 15
 WWD
 
@@ -1363,7 +1219,6 @@ Test # 11-2 has been succeeded!
 output_port = 0x1 (Ans : 0x1)
 mpc :     0
 IF stage
-ALU out : 0069 0001 006a
 
 --------------------
 mpc :     1
@@ -1376,12 +1231,10 @@ R-TYPE
 mpc :     2
 EX stage - R type ALU
 SHR
-ALU out : 0000 0000 006b
 
 --------------------
 mpc :    10
 WB stage - from ALUout
-ALU out : 0000 0000 0000
 
 --------------------
 mpc :     0
@@ -1392,7 +1245,6 @@ RF changed : 0000
 mpc :     1
 ID stage
 PC : 006a
-ALU out : 006b 0001 006b
 ftn : 28, op : 15
 WWD
 
@@ -1401,329 +1253,5 @@ Test # 11-3 has been succeeded!
 output_port = 0x0 (Ans : 0x0)
 mpc :     0
 IF stage
-ALU out : 006b 0001 006c
 
 --------------------
-mpc :     1
-ID stage
-PC : 006b
-ftn :  1, op :  7
-LWD / SWD
-
---------------------
-mpc :     4
-EX stage - LWD / SWD
-ALU out : 0000 0001 0001
-
---------------------
-mpc :     5
-MEM stage - LWD
-
---------------------
-mpc :     6
-WB stage - LWD
-
---------------------
-mpc :     0
-IF stage
-RF changed : 0001
-
---------------------
-mpc :     1
-ID stage
-PC : 006c
-ALU out : 006d 0001 006d
-ftn : 28, op : 15
-WWD
-
---------------------
-Test # 12-1 has been succeeded!
-output_port = 0x1 (Ans : 0x1)
-mpc :     0
-IF stage
-ALU out : 006d 0001 006e
-
---------------------
-mpc :     1
-ID stage
-PC : 006d
-ftn :  2, op :  7
-LWD / SWD
-
---------------------
-mpc :     4
-EX stage - LWD / SWD
-ALU out : 0000 0002 0003
-
---------------------
-mpc :     5
-MEM stage - LWD
-ALU out : 0000 0002 0002
-
---------------------
-mpc :     6
-WB stage - LWD
-
---------------------
-mpc :     0
-IF stage
-RF changed : ffff
-
---------------------
-mpc :     1
-ID stage
-PC : 006e
-ALU out : 006f 0001 006f
-ftn : 28, op : 15
-WWD
-
---------------------
-Test # 12-2 has been succeeded!
-output_port = 0xffff (Ans : 0xffff)
-mpc :     0
-IF stage
-ALU out : 006f 0001 0070
-
---------------------
-mpc :     1
-ID stage
-PC : 006f
-ftn :  1, op :  8
-LWD / SWD
-
---------------------
-mpc :     4
-EX stage - LWD / SWD
-ALU out : 0000 0001 0000
-
---------------------
-mpc :     7
-MEM stage - SWD
-ALU out : 0000 0001 0001
-
---------------------
-mpc :     0
-IF stage
-
---------------------
-mpc :     1
-ID stage
-PC : 0070
-ALU out : 0071 0001 0071
-ftn :  2, op :  8
-LWD / SWD
-
---------------------
-mpc :     4
-EX stage - LWD / SWD
-ALU out : 0000 0002 0002
-
---------------------
-mpc :     7
-MEM stage - SWD
-
---------------------
-mpc :     0
-IF stage
-
---------------------
-mpc :     1
-ID stage
-PC : 0071
-ALU out : 0072 0001 0072
-ftn :  1, op :  7
-LWD / SWD
-
---------------------
-mpc :     4
-EX stage - LWD / SWD
-ALU out : 0000 0001 0001
-
---------------------
-mpc :     5
-MEM stage - LWD
-
---------------------
-mpc :     6
-WB stage - LWD
-
---------------------
-mpc :     0
-IF stage
-RF changed : ffff
-
---------------------
-mpc :     1
-ID stage
-PC : 0072
-ALU out : 0073 0001 0073
-ftn : 28, op : 15
-WWD
-
---------------------
-Test # 13-1 has been succeeded!
-output_port = 0xffff (Ans : 0xffff)
-mpc :     0
-IF stage
-ALU out : 0073 0001 0074
-
---------------------
-mpc :     1
-ID stage
-PC : 0073
-ftn :  2, op :  7
-LWD / SWD
-
---------------------
-mpc :     4
-EX stage - LWD / SWD
-ALU out : 0000 0002 0001
-
---------------------
-mpc :     5
-MEM stage - LWD
-ALU out : 0000 0002 0002
-
---------------------
-mpc :     6
-WB stage - LWD
-
---------------------
-mpc :     0
-IF stage
-RF changed : 0001
-
---------------------
-mpc :     1
-ID stage
-PC : 0074
-ALU out : 0075 0001 0075
-ftn : 28, op : 15
-WWD
-
---------------------
-Test # 13-2 has been succeeded!
-output_port = 0x1 (Ans : 0x1)
-mpc :     0
-IF stage
-ALU out : 0075 0001 0076
-
---------------------
-mpc :     1
-ID stage
-PC : 0075
-ftn : 22, op :  9
-JMP
-Tar Addr: 0076
-
---------------------
-mpc :     0
-IF stage
-ALU out : 0076 0001 0077
-
---------------------
-mpc :     1
-ID stage
-PC : 0076
-ftn : 28, op : 15
-WWD
-
---------------------
-Test # 14-1 has been succeeded!
-output_port = 0xffff (Ans : 0xffff)
-mpc :     0
-IF stage
-ALU out : 0077 0001 0078
-
---------------------
-mpc :     1
-ID stage
-PC : 0077
-ftn : 25, op :  9
-JMP
-Tar Addr: 0079
-
---------------------
-mpc :     0
-IF stage
-ALU out : 0079 0001 0079
-
---------------------
-mpc :     1
-ID stage
-PC : 0079
-ALU out : 007a 0001 007a
-ftn : 28, op : 15
-WWD
-
---------------------
-Test # 14-2 has been succeeded!
-output_port = 0x1 (Ans : 0x1)
-mpc :     0
-IF stage
-ALU out : 007a 0001 007b
-
---------------------
-mpc :     1
-ID stage
-PC : 007a
-ftn :  1, op :  0
-
---------------------
-mpc :     0
-IF stage
-ALU out : 007b 0001 007c
-
---------------------
-mpc :     1
-ID stage
-PC : 007b
-ftn : 29, op :  9
-JMP
-Tar Addr: 007d
-
---------------------
-mpc :     0
-IF stage
-ALU out : 007d 0001 007d
-
---------------------
-mpc :     1
-ID stage
-PC : 007d
-ALU out : 007e 0001 007e
-ftn : 28, op : 15
-WWD
-
---------------------
-Test # 15-1 has been succeeded!
-output_port = 0xffff (Ans : 0xffff)
-mpc :     0
-IF stage
-ALU out : 007e 0001 007f
-
---------------------
-mpc :     1
-ID stage
-PC : 007e
-ftn :  1, op :  0
-
---------------------
-mpc :     0
-IF stage
-ALU out : 007f 0001 0080
-
---------------------
-mpc :     1
-ID stage
-PC : 007f
-ftn : 29, op : 15
-HLT
-
---------------------
-Test # 15-2 has been failed!
-output_port = 0xzzzz (Ans : 0x1)
-mpc :     0
-IF stage
-Clock #  272
-The testbench is finished. Summarizing...
